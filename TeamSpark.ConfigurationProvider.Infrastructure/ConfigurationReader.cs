@@ -25,7 +25,11 @@ namespace TeamSpark.ConfigurationProvider.Infrastructure
 
 		#endregion
 
-		
+		public void AddConfigurationReader(IConfigurationReader configurationReader)
+		{
+			_configurationReaders.Add(configurationReader);
+		}
+
 		#region IConfigurationReader
 
 		public string GetConfigurationValue(string key, string defaultValue = null)
