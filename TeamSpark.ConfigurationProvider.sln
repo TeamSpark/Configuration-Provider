@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.ConfigurationProvider.Infrastructure", "TeamSpark.ConfigurationProvider.Infrastructure\TeamSpark.ConfigurationProvider.Infrastructure.csproj", "{F287EA78-2668-4839-9286-259BFEFFCB6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamSpark.ConfigurationProvider.General", "TeamSpark.ConfigurationProvider.General\TeamSpark.ConfigurationProvider.General.csproj", "{3C758FBC-1B63-428E-985C-EF96DF78E047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F287EA78-2668-4839-9286-259BFEFFCB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F287EA78-2668-4839-9286-259BFEFFCB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F287EA78-2668-4839-9286-259BFEFFCB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C758FBC-1B63-428E-985C-EF96DF78E047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C758FBC-1B63-428E-985C-EF96DF78E047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C758FBC-1B63-428E-985C-EF96DF78E047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C758FBC-1B63-428E-985C-EF96DF78E047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
